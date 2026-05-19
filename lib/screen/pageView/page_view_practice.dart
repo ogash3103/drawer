@@ -20,7 +20,7 @@ class _ControlledPageViewState extends State<ControlledPageView> {
 
   @override
   void dispose() {
-    _pageController.dispose(); // ⚠️ MUHIM: Memory leak oldini olish
+    _pageController.dispose();
     super.dispose();
   }
 

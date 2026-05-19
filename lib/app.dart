@@ -1,3 +1,4 @@
+import 'package:drawer/screen/pageView/Real%20App/onboarding_screen.dart';
 import 'package:drawer/screen/pageView/page_view_practice.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ControlledPageView(),
+      home: OnboardingScreen(),
     );
   }
 }
